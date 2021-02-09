@@ -1,9 +1,7 @@
-Welcome to the slay data analysis project.  This is currently limited to
-defect games, because it's still young and they are the character that
-I play best.
+Welcome to the slay data analysis project.  This is currently limited to defect games, because it's still young and they are the character that I play best.
 
-This requires the Monthly_20_10 and Monthly_2020_11 datasets from here to
-be extracted in a raw_logs subdirectory. https://drive.google.com/drive/folders/1c7MwTdLxnPgvmPbBEfNWa45YAUU53H0l
+This requires the Monthly_20_10 and Monthly_2020_11 datasets from here to be extracted in a raw_logs subdirectory. 
+https://drive.google.com/drive/folders/1c7MwTdLxnPgvmPbBEfNWa45YAUU53H0l
 
 A list of ideas for the project are here:
 
