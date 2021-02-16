@@ -1,0 +1,145 @@
+<html><head><title>Analysis of FTL</title><link rel="stylesheet" href="../style.css"</head>
+<body><table><tr><th>listed card</th><th>number of times FTL offered in card rewards while listed card in deck</th><th>mean model score change when listed card is removed</td><th># times removing listed card causes model to skip FTL</th><th># times removing listed card causes model to take FTL</th></tr>
+<tr><td>Ausschlachten</td> <td>160</td> <td>13.8 ± 1.2</td><td>23</td><td>1<td></tr>
+<tr><td>Strahlenzelle</td> <td>699</td> <td>11.0 ± 0.4</td><td>137</td><td>4<td></tr>
+<tr><td>Kralle</td> <td>1145</td> <td>10.4 ± 0.4</td><td>194</td><td>19<td></tr>
+<tr><td>Strahlenzelle+1</td> <td>240</td> <td>7.4 ± 0.6</td><td>26</td><td>1<td></tr>
+<tr><td>In die Augen</td> <td>968</td> <td>7.0 ± 0.3</td><td>92</td><td>2<td></tr>
+<tr><td>Rückstoß+1</td> <td>56</td> <td>6.9 ± 0.9</td><td>8</td><td>0<td></tr>
+<tr><td>Alle für Einen</td> <td>258</td> <td>6.8 ± 0.8</td><td>30</td><td>2<td></tr>
+<tr><td>Dampfwall</td> <td>515</td> <td>6.0 ± 0.3</td><td>48</td><td>5<td></tr>
+<tr><td>Breiter Strahl</td> <td>1196</td> <td>5.7 ± 0.2</td><td>103</td><td>1<td></tr>
+<tr><td>Kralle+1</td> <td>127</td> <td>4.9 ± 0.9</td><td>12</td><td>2<td></tr>
+<tr><td>In die Augen+1</td> <td>268</td> <td>4.6 ± 0.4</td><td>17</td><td>0<td></tr>
+<tr><td>Zerfetzen</td> <td>340</td> <td>4.5 ± 0.4</td><td>29</td><td>1<td></tr>
+<tr><td>Reue</td> <td>217</td> <td>4.3 ± 0.4</td><td>14</td><td>2<td></tr>
+<tr><td>Sperrfeuer+1</td> <td>229</td> <td>4.0 ± 0.5</td><td>11</td><td>2<td></tr>
+<tr><td>Kompilieren</td> <td>914</td> <td>3.9 ± 0.3</td><td>51</td><td>4<td></tr>
+<tr><td>Kompilieren+1</td> <td>91</td> <td>3.9 ± 0.9</td><td>2</td><td>0<td></tr>
+<tr><td>Rückstoß</td> <td>545</td> <td>3.8 ± 0.3</td><td>32</td><td>5<td></tr>
+<tr><td>Schmelzen+1</td> <td>73</td> <td>3.8 ± 0.8</td><td>9</td><td>0<td></tr>
+<tr><td>Schmelzen</td> <td>607</td> <td>2.8 ± 0.2</td><td>28</td><td>2<td></tr>
+<tr><td>Rekursion</td> <td>303</td> <td>2.8 ± 0.4</td><td>10</td><td>7<td></tr>
+<tr><td>Hologramm+1</td> <td>297</td> <td>2.8 ± 0.3</td><td>25</td><td>1<td></tr>
+<tr><td>Kälteeinbruch+1</td> <td>188</td> <td>2.8 ± 0.4</td><td>8</td><td>0<td></tr>
+<tr><td>Gen-Algorithmus</td> <td>541</td> <td>2.7 ± 0.2</td><td>23</td><td>1<td></tr>
+<tr><td>Kälte</td> <td>812</td> <td>2.7 ± 0.2</td><td>43</td><td>0<td></tr>
+<tr><td>Optimieren+1</td> <td>497</td> <td>2.7 ± 0.3</td><td>25</td><td>2<td></tr>
+<tr><td>Optimieren</td> <td>865</td> <td>2.5 ± 0.2</td><td>35</td><td>5<td></tr>
+<tr><td>Doppelte Energie</td> <td>135</td> <td>2.5 ± 0.6</td><td>12</td><td>2<td></tr>
+<tr><td>Breiter Strahl+1</td> <td>291</td> <td>2.5 ± 0.4</td><td>18</td><td>2<td></tr>
+<tr><td>Kälte+1</td> <td>91</td> <td>2.3 ± 0.6</td><td>3</td><td>0<td></tr>
+<tr><td>Sperrfeuer</td> <td>574</td> <td>2.3 ± 0.3</td><td>29</td><td>3<td></tr>
+<tr><td>Doppelte Energie+1</td> <td>52</td> <td>2.1 ± 0.9</td><td>4</td><td>0<td></tr>
+<tr><td>Allheilmittel</td> <td>62</td> <td>2.0 ± 0.6</td><td>2</td><td>0<td></tr>
+<tr><td>Doppelentladung</td> <td>8891</td> <td>1.9 ± 0.1</td><td>408</td><td>98<td></tr>
+<tr><td>Systemstart</td> <td>596</td> <td>1.9 ± 0.2</td><td>21</td><td>4<td></tr>
+<tr><td>Gen-Algorithmus+1</td> <td>179</td> <td>1.8 ± 0.4</td><td>4</td><td>0<td></tr>
+<tr><td>Schlag</td> <td>10020</td> <td>1.7 ± 0.0</td><td>365</td><td>45<td></tr>
+<tr><td>Hologramm</td> <td>699</td> <td>1.7 ± 0.2</td><td>24</td><td>4<td></tr>
+<tr><td>Zerfetzen+1</td> <td>97</td> <td>1.7 ± 0.6</td><td>5</td><td>0<td></tr>
+<tr><td>Blitz+1</td> <td>3234</td> <td>1.6 ± 0.1</td><td>137</td><td>34<td></tr>
+<tr><td>Stapel</td> <td>174</td> <td>1.5 ± 0.6</td><td>10</td><td>6<td></tr>
+<tr><td>Rekursion+1</td> <td>156</td> <td>1.5 ± 0.5</td><td>7</td><td>4<td></tr>
+<tr><td>Batterie laden+1</td> <td>215</td> <td>1.5 ± 0.4</td><td>7</td><td>1<td></tr>
+<tr><td>Schilde hoch!</td> <td>327</td> <td>1.5 ± 0.3</td><td>13</td><td>2<td></tr>
+<tr><td>Verstärkte Hülle</td> <td>473</td> <td>1.4 ± 0.2</td><td>14</td><td>0<td></tr>
+<tr><td>Batterie laden</td> <td>1592</td> <td>1.4 ± 0.1</td><td>64</td><td>17<td></tr>
+<tr><td>Sprung</td> <td>941</td> <td>1.2 ± 0.1</td><td>27</td><td>7<td></tr>
+<tr><td>Kälteeinbruch</td> <td>2478</td> <td>1.2 ± 0.1</td><td>92</td><td>19<td></tr>
+<tr><td>Trennen</td> <td>445</td> <td>1.1 ± 0.2</td><td>15</td><td>5<td></tr>
+<tr><td>Trennen+1</td> <td>480</td> <td>1.1 ± 0.3</td><td>12</td><td>6<td></tr>
+<tr><td>Kraftfeld</td> <td>124</td> <td>1.0 ± 0.6</td><td>4</td><td>1<td></tr>
+<tr><td>Fluch der Glocke</td> <td>153</td> <td>1.0 ± 0.3</td><td>1</td><td>1<td></tr>
+<tr><td>Schlag+1</td> <td>840</td> <td>0.7 ± 0.1</td><td>32</td><td>11<td></tr>
+<tr><td>Hyperstrahl</td> <td>104</td> <td>0.7 ± 0.9</td><td>4</td><td>3<td></tr>
+<tr><td>Übertakten</td> <td>60</td> <td>0.4 ± 1.0</td><td>0</td><td>3<td></tr>
+<tr><td>Doppelentladung+1</td> <td>1355</td> <td>0.3 ± 0.1</td><td>35</td><td>21<td></tr>
+<tr><td>Ausgeglichenheit</td> <td>491</td> <td>0.2 ± 0.2</td><td>8</td><td>8<td></tr>
+<tr><td>Elektrodynamik+1</td> <td>162</td> <td>0.2 ± 0.5</td><td>2</td><td>3<td></tr>
+<tr><td>Kugelblitz+1</td> <td>410</td> <td>0.2 ± 0.3</td><td>8</td><td>10<td></tr>
+<tr><td>Ins Schwarze+1</td> <td>121</td> <td>0.2 ± 0.6</td><td>5</td><td>3<td></tr>
+<tr><td>Fusion+1</td> <td>63</td> <td>0.1 ± 0.8</td><td>2</td><td>0<td></tr>
+<tr><td>Verletzung</td> <td>220</td> <td>0.1 ± 0.5</td><td>4</td><td>9<td></tr>
+<tr><td>Verteidigen+1</td> <td>933</td> <td>0.1 ± 0.1</td><td>10</td><td>13<td></tr>
+<tr><td>Hyperstrahl+1</td> <td>88</td> <td>0.1 ± 1.4</td><td>2</td><td>4<td></tr>
+<tr><td>Fusion</td> <td>96</td> <td>0.0 ± 0.6</td><td>3</td><td>5<td></tr>
+<tr><td>Selbstreparatur</td> <td>1041</td> <td>0.0 ± 0.2</td><td>10</td><td>14<td></tr>
+<tr><td>Kugelblitz</td> <td>2946</td> <td>-0.1 ± 0.1</td><td>46</td><td>65<td></tr>
+<tr><td>Regenbogen+1</td> <td>92</td> <td>-0.1 ± 0.5</td><td>3</td><td>4<td></tr>
+<tr><td>Leid</td> <td>55</td> <td>-0.2 ± 0.7</td><td>1</td><td>0<td></tr>
+<tr><td>Kapazität+1</td> <td>272</td> <td>-0.2 ± 0.4</td><td>3</td><td>9<td></tr>
+<tr><td>Zweifel</td> <td>356</td> <td>-0.3 ± 0.3</td><td>12</td><td>9<td></tr>
+<tr><td>Ausgeglichenheit+1</td> <td>73</td> <td>-0.3 ± 0.5</td><td>0</td><td>1<td></tr>
+<tr><td>Dunkles Schicksal</td> <td>676</td> <td>-0.3 ± 0.2</td><td>20</td><td>20<td></tr>
+<tr><td>Abschöpfen</td> <td>251</td> <td>-0.4 ± 0.4</td><td>7</td><td>5<td></tr>
+<tr><td>Dunkles Schicksal+1</td> <td>281</td> <td>-0.4 ± 0.4</td><td>5</td><td>14<td></tr>
+<tr><td>Donnerschlag</td> <td>155</td> <td>-0.4 ± 0.7</td><td>3</td><td>4<td></tr>
+<tr><td>Schleife</td> <td>678</td> <td>-0.4 ± 0.2</td><td>8</td><td>16<td></tr>
+<tr><td>Arm der Gier</td> <td>51</td> <td>-0.5 ± 1.1</td><td>5</td><td>3<td></tr>
+<tr><td>Verteidigen</td> <td>10176</td> <td>-0.5 ± 0.0</td><td>104</td><td>210<td></tr>
+<tr><td>Gewitter+1</td> <td>114</td> <td>-0.6 ± 0.5</td><td>4</td><td>2<td></tr>
+<tr><td>Puffer</td> <td>250</td> <td>-0.7 ± 0.4</td><td>4</td><td>6<td></tr>
+<tr><td>Schmerz</td> <td>123</td> <td>-0.7 ± 0.5</td><td>1</td><td>1<td></tr>
+<tr><td>Echoform</td> <td>618</td> <td>-0.8 ± 0.2</td><td>3</td><td>14<td></tr>
+<tr><td>Lernende Maschine</td> <td>171</td> <td>-0.9 ± 0.4</td><td>1</td><td>6<td></tr>
+<tr><td>Gletscher</td> <td>1333</td> <td>-0.9 ± 0.2</td><td>14</td><td>40<td></tr>
+<tr><td>Ins Schwarze</td> <td>382</td> <td>-0.9 ± 0.3</td><td>5</td><td>9<td></tr>
+<tr><td>Spaltung+1</td> <td>137</td> <td>-0.9 ± 0.4</td><td>2</td><td>3<td></tr>
+<tr><td>Rauschen+1</td> <td>213</td> <td>-1.1 ± 0.3</td><td>1</td><td>8<td></tr>
+<tr><td>Sprung+1</td> <td>129</td> <td>-1.1 ± 0.4</td><td>0</td><td>5<td></tr>
+<tr><td>FTL</td> <td>701</td> <td>-1.2 ± 0.2</td><td>6</td><td>23<td></tr>
+<tr><td>Spaltung</td> <td>184</td> <td>-1.2 ± 0.4</td><td>1</td><td>4<td></tr>
+<tr><td>Schleife+1</td> <td>399</td> <td>-1.2 ± 0.2</td><td>1</td><td>12<td></tr>
+<tr><td>Hallo Welt</td> <td>119</td> <td>-1.2 ± 0.7</td><td>1</td><td>4<td></tr>
+<tr><td>Blitz</td> <td>7053</td> <td>-1.3 ± 0.0</td><td>51</td><td>176<td></tr>
+<tr><td>Kraft des Kerns</td> <td>568</td> <td>-1.3 ± 0.1</td><td>2</td><td>21<td></tr>
+<tr><td>Meteorschlag</td> <td>110</td> <td>-1.3 ± 0.6</td><td>1</td><td>4<td></tr>
+<tr><td>Suchen+1</td> <td>89</td> <td>-1.4 ± 0.4</td><td>0</td><td>3<td></tr>
+<tr><td>Multi-Entladung</td> <td>98</td> <td>-1.5 ± 0.6</td><td>1</td><td>3<td></tr>
+<tr><td>Echoform+1</td> <td>118</td> <td>-1.5 ± 0.5</td><td>3</td><td>4<td></tr>
+<tr><td>Regenbogen</td> <td>243</td> <td>-1.6 ± 0.4</td><td>2</td><td>5<td></tr>
+<tr><td>Verstärkte Hülle+1</td> <td>106</td> <td>-1.7 ± 0.7</td><td>1</td><td>3<td></tr>
+<tr><td>Dunkelheit+1</td> <td>200</td> <td>-1.8 ± 0.7</td><td>1</td><td>12<td></tr>
+<tr><td>Kühler Kopf</td> <td>1826</td> <td>-1.8 ± 0.1</td><td>12</td><td>60<td></tr>
+<tr><td>Selbstreparatur+1</td> <td>249</td> <td>-1.8 ± 0.3</td><td>0</td><td>11<td></tr>
+<tr><td>Abschöpfen+1</td> <td>57</td> <td>-1.8 ± 0.7</td><td>0</td><td>2<td></tr>
+<tr><td>Suchen</td> <td>402</td> <td>-1.9 ± 0.2</td><td>0</td><td>18<td></tr>
+<tr><td>Apotheose</td> <td>73</td> <td>-1.9 ± 0.6</td><td>1</td><td>3<td></tr>
+<tr><td>Apparieren</td> <td>78</td> <td>-1.9 ± 0.4</td><td>0</td><td>1<td></tr>
+<tr><td>Chaos</td> <td>184</td> <td>-2.0 ± 0.5</td><td>2</td><td>11<td></tr>
+<tr><td>Wärmetauscher+1</td> <td>62</td> <td>-2.0 ± 0.7</td><td>0</td><td>0<td></tr>
+<tr><td>Puffer+1</td> <td>182</td> <td>-2.1 ± 0.4</td><td>0</td><td>7<td></tr>
+<tr><td>FTL+1</td> <td>56</td> <td>-2.1 ± 1.1</td><td>0</td><td>4<td></tr>
+<tr><td>Gletscher+1</td> <td>189</td> <td>-2.3 ± 0.4</td><td>0</td><td>5<td></tr>
+<tr><td>Neustart</td> <td>220</td> <td>-2.3 ± 0.3</td><td>0</td><td>10<td></tr>
+<tr><td>TURBO</td> <td>423</td> <td>-2.4 ± 0.3</td><td>1</td><td>28<td></tr>
+<tr><td>Schneesturm+1</td> <td>83</td> <td>-2.5 ± 1.0</td><td>1</td><td>4<td></tr>
+<tr><td>Kapazität</td> <td>925</td> <td>-2.5 ± 0.2</td><td>6</td><td>42<td></tr>
+<tr><td>Verzerrter Fokus</td> <td>383</td> <td>-2.5 ± 0.3</td><td>0</td><td>16<td></tr>
+<tr><td>Schneesturm</td> <td>188</td> <td>-2.6 ± 0.8</td><td>1</td><td>10<td></tr>
+<tr><td>Defragmentieren</td> <td>873</td> <td>-2.8 ± 0.2</td><td>2</td><td>46<td></tr>
+<tr><td>Gewitter</td> <td>277</td> <td>-2.9 ± 0.4</td><td>1</td><td>17<td></tr>
+<tr><td>Wärmetauscher</td> <td>160</td> <td>-3.0 ± 0.7</td><td>1</td><td>8<td></tr>
+<tr><td>Rauschen</td> <td>526</td> <td>-3.0 ± 0.2</td><td>2</td><td>20<td></tr>
+<tr><td>Sturm+1</td> <td>130</td> <td>-3.1 ± 0.6</td><td>2</td><td>7<td></tr>
+<tr><td>Verfall</td> <td>67</td> <td>-3.1 ± 0.7</td><td>0</td><td>3<td></tr>
+<tr><td>Chaos+1</td> <td>214</td> <td>-3.3 ± 0.4</td><td>1</td><td>16<td></tr>
+<tr><td>Recyclen</td> <td>190</td> <td>-3.4 ± 0.5</td><td>1</td><td>7<td></tr>
+<tr><td>Statische Entladung</td> <td>429</td> <td>-3.5 ± 0.3</td><td>1</td><td>24<td></tr>
+<tr><td>Dunkelheit</td> <td>274</td> <td>-3.5 ± 0.5</td><td>2</td><td>22<td></tr>
+<tr><td>Statische Entladung+1</td> <td>344</td> <td>-3.7 ± 0.4</td><td>2</td><td>21<td></tr>
+<tr><td>Elektrodynamik</td> <td>707</td> <td>-4.3 ± 0.3</td><td>3</td><td>61<td></tr>
+<tr><td>Sturm</td> <td>294</td> <td>-4.3 ± 0.6</td><td>1</td><td>20<td></tr>
+<tr><td>Kreative KI</td> <td>266</td> <td>-4.4 ± 0.5</td><td>1</td><td>20<td></tr>
+<tr><td>Apotheose+1</td> <td>133</td> <td>-4.5 ± 0.6</td><td>0</td><td>6<td></tr>
+<tr><td>Konsumieren+1</td> <td>261</td> <td>-4.5 ± 0.5</td><td>1</td><td>23<td></tr>
+<tr><td>Kühler Kopf+1</td> <td>521</td> <td>-4.5 ± 0.3</td><td>1</td><td>48<td></tr>
+<tr><td>Recyclen+1</td> <td>94</td> <td>-4.5 ± 1.0</td><td>0</td><td>8<td></tr>
+<tr><td>Defragmentieren+1</td> <td>1187</td> <td>-4.7 ± 0.2</td><td>4</td><td>106<td></tr>
+<tr><td>TURBO+1</td> <td>102</td> <td>-4.9 ± 0.9</td><td>0</td><td>8<td></tr>
+<tr><td>Konsumieren</td> <td>269</td> <td>-5.5 ± 0.6</td><td>1</td><td>27<td></tr>
+<tr><td>Kreative KI+1</td> <td>113</td> <td>-5.6 ± 0.9</td><td>0</td><td>12<td></tr>
+<tr><td>Verstärken</td> <td>123</td> <td>-5.8 ± 0.7</td><td>0</td><td>7<td></tr>
+<tr><td>Verzerrter Fokus+1</td> <td>171</td> <td>-5.9 ± 0.7</td><td>0</td><td>17<td></tr>
+</table></body></html>
